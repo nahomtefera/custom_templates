@@ -1,0 +1,117 @@
+.intro-img-item-container {
+    width: 25%;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+
+.intro-img-item {
+    width: 100%;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    outline: none!important;
+}
+
+.intro-img-item:hover {
+    -webkit-animation-name: scale;
+    -webkit-animation-duration: 0.9s;
+    -moz-animation-name: scale;
+    -moz-animation-duration: 0.9s;
+    transform: scale(1.14);
+}
+
+.intro-coffee, .intro-pastries {
+    display: flex;
+}
+
+.intro-coffee-text-container, .intro-coffee-img-container, .intro-pastries-text-container, .intro-pastries-img-container {
+    width: 50%;
+    display: inline-block;
+    background: #fafafa;
+}
+
+.intro-coffee-text-container, .intro-pastries-text-container  {
+    vertical-align: top;
+    padding: 5em;
+    box-sizing: border-box;
+}
+
+.intro-coffee-text-container h1, .intro-pastries-text-container h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #d4bca9;
+    font-size: 2em;
+}
+
+.intro-coffee-text-container p, .intro-pastries-text-container p  {
+    line-height: 35px;
+    font-size: 100%;
+    font-weight: 100;
+    color: #383838;
+    font-family: sans-serif;
+}
+
+.intro-coffee-img-container {
+    background: url('../../images/intro/intro-img-8.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-pastries-img-container {
+    background: url('../../images/intro/intro-img-7.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-coffee-img-item, .intro-pastries-img-item  {
+    width: 100%;
+}
+
+.view-menu-button {
+    display: inline-block;
+    padding: 12px;
+    border: solid 2px #d4bca9;
+    background: #d4bca9;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.view-menu-button:hover {
+    background: white;
+    color: #d4bca9;
+}
+
+@-webkit-keyframes scale{
+    from {-webkit-transform:scale(1);}
+    to {-webkit-transform: scale(1.14);}    
+}
+    
+
+@media only screen and (max-width: 950px) {
+    .intro-img-item-container {
+        width: 50%;
+        display: inline-block;
+    }
+    .intro-coffee-text-container, .intro-coffee-img-container, .intro-pastries-text-container, .intro-pastries-img-container {
+        flex: 0 0 100%;
+        min-height: 350px;
+    }
+    .intro-coffee, .intro-pastries {
+        flex-flow: wrap;
+    }
+
+    .intro-pastries-img-container {
+        order: 2!important;    
+    }
+
+    .intro-pastries-text-container {
+        order: 1!important;
+    } 
+    
+
+}
