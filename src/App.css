@@ -8,8 +8,21 @@
 }
 
 .custom-template-container {
-  width: 85%;
+  width: 1200px;
   display: inline-block;
   min-height: 800px;
   background: #d9eaff;
+  -webkit-box-shadow: -3px 2px 27px -3px hsla(0,0%,70%,.852);
+  box-shadow: -3px 2px 27px -3px hsla(0,0%,70%,.852);
+}
+
+.list-container {
+  list-style: none;
+  text-align: left;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 23px;
+  cursor: pointer;
 }
