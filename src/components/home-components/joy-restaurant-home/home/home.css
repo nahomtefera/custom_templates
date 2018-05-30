@@ -1,0 +1,64 @@
+.joy-home-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    position: relative;
+    top: 0;
+    text-align: center;
+    padding: 8em 0;
+    background: white;
+}
+
+.restaurant-name {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;    
+    font-weight: 700;
+    font-size: 5em;
+}
+
+.joy-logo-container {
+    display: inline-block;
+    height: 100%;
+}
+
+.joy-logo-name {
+    width: 650px;
+    max-width: 85%;    
+}
+
+.arrow-container{
+    text-align: center;
+}
+
+.arrow-down-icon {
+    color: #434343;
+    /* position: absolute;
+    bottom: 1em; */
+    float: none!important;
+    font-size: 3em;
+    right: 50%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .home-container {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        top: 0;
+        z-index: 0;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .logo-name {
+        margin-top: 6em
+    }
+
+}
+    

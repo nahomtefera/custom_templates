@@ -34,7 +34,6 @@ class App extends Component {
         <CustomizeBar changeHome={this.changeHome} />
 
         <div className="custom-template-container">   
-
           <HomeContainer home_type={this.state.home}/>
           <ModernCoffeeIntro />
         </div>

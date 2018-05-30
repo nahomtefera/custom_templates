@@ -1,0 +1,76 @@
+.customize-bar-container {
+    position: fixed;
+    background: #fafafa;
+    color: #3f3f3f;
+    box-sizing: border-box;
+    width: 300px;
+    /* height: 100vh; */
+    top: 0;
+    box-shadow: 2px 3px 50px -3px hsl(0, 0%, 86%);
+    margin-top: 5em;
+    margin-left: 2.3em;
+    font-family: Roboto, Raleway, sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.03' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.customize-bar-container:hover {
+    box-shadow: 2px 3px 50px -3px hsl(0, 0%, 78%);
+}
+
+.bar-title {
+    text-align: center;
+    padding: 1.5em;
+    background: #46433a;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.outer-list-container {
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-bottom: 4em;
+}
+
+.list-container {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.list-title {
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+    font-size: 1.45em;
+    margin-top: 2em;
+}
+
+.list-title:first-child{
+    margin-top: 0;
+}
+  
+.list-item {
+    display: block;
+    padding: 23px;
+    padding-left: 0px;
+    cursor: pointer;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: -23px 0;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-left: 0;
+    font-weight: 100;
+    font-size: 1.25em;
+    color: #8f8f8f;
+}
+
+.list-item:hover {
+    color: #3f3f3f;
+}
+
