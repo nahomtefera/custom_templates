@@ -9,8 +9,7 @@ class HomeContainer extends Component {
     render() {
         
         return (
-            <div className="home-container-container">
-
+            <div>
                 {this.props.home_type === "ModernCoffeeHome" ? <ModernCoffeeHome /> :
                  this.props.home_type === "BasicCoffeeHome" ? <BasicCoffeeHome /> : 
                  this.props.home_type === "MinimalRestaurantHome" ? <MinimalRestaurantHome /> :

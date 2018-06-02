@@ -1,5 +1,13 @@
+.intro-images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .intro-img-item-container {
     width: 25%;
+    min-width: 300px;
+    max-width: 100%;
+    flex-grow: 1;
     display: inline-block;
     overflow: hidden;
     box-sizing: border-box;
@@ -23,13 +31,18 @@
 
 .intro-coffee, .intro-pastries {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .intro-coffee-text-container, .intro-coffee-img-container, .intro-pastries-text-container, .intro-pastries-img-container {
     width: 50%;
+    min-width: 400px;
+    min-height: 350px;
+    flex-grow: 1;
     display: inline-block;
     background: #fafafa;
 }
+
 
 .intro-coffee-text-container, .intro-pastries-text-container  {
     vertical-align: top;
