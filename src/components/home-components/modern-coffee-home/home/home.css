@@ -3,8 +3,8 @@
     max-width: 100%;
     min-height: 560px;
     height: 100%;
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
     text-align: center;
 }
 
